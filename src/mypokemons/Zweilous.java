@@ -7,7 +7,7 @@ import ru.ifmo.se.pokemon.Move;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class Zweilous extends Pokemon {
+public final class Zweilous extends Pokemon {
     public Zweilous(String name, int level) {
         super(name, level);
         super.setType(new Type[]{Type.DARK, Type.DRAGON});

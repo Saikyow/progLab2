@@ -8,7 +8,7 @@ import ru.ifmo.se.pokemon.Move;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class Phantump extends Pokemon {
+public final class Phantump extends Pokemon {
     public Phantump(String name, int level) {
         super(name, level);
         super.setType(new Type[]{Type.GHOST, Type.GRASS});

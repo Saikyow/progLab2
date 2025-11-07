@@ -8,7 +8,7 @@ import ru.ifmo.se.pokemon.Move;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class Carbink extends Pokemon {
+public final class Carbink extends Pokemon {
     public Carbink(String name, int level) {
         super(name, level);
         super.setType(new Type[]{Type.ROCK,  Type.FAIRY});

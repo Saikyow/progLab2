@@ -6,7 +6,7 @@ import ru.ifmo.se.pokemon.Move;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class Deino extends Pokemon {
+public final class Deino extends Pokemon {
     public Deino(String name, int level) {
         super(name, level);
         super.setType(new Type[]{Type.DRAGON, Type.DARK});
